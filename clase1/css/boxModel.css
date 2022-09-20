@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    /* reseteo general */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* el padding no suma a dimesiones */
+}
+
+body{
+    font-family: Roboto;
+    font-weight: 300;
+    color: #444;
+    background-color: #424242;
+}
+
+#verde,
+#naranja,
+#celeste{
+    width: 200px;
+    height: 150px;
+    padding: 50px;
+}
+
+#verde{
+    background-color: #b9ff72;
+    margin: 48px;
+}
+#naranja{
+    background-color: #ffbb72;
+    /* margin: 60px 0px 150px 200px;*/
+    margin: auto; /* centrar una caja */
+}
+#celeste{
+    background-color: #72fffd;
+}
