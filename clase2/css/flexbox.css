@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    /* reseteo general */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* el padding no suma a dimensiones */
+}
+
+body{
+    font-family: Roboto;
+    font-weight: 300;
+    color: #555;
+    width: 1000px;
+    margin: auto;
+    padding: 32px 0px;
+}
+h1, h2{
+    font-weight: 300;
+}
+
+#contenedor,
+#contenedor2,
+#contenedor3,
+#contenedor4,
+#contenedor5 {
+    background-color: #ccc;
+    min-height: 450px;
+    margin: 32px 0px 64px 0px;
+    display: flex;
+}
+
+    div{
+        background-color: #a6fcd3;
+        width: 200px;
+        height: 150px;
+        text-align: center;
+    }
+
+#contenedor{
+    /* en el eje horizontal */
+    /* justify-content: start; /* predeterminado desde la izquierda a derecha */
+    /* justify-content: end;   /* al final, a la derecha */
+    /* justify-content: center; /* al centro */
+
+    /* distribución de sobrante */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+
+#contenedor2{
+    /* alinear en eje vertical */
+    /* align-items: start; /* predeterminado : arriba */
+    /* align-items: end; /* debajo */
+    align-items: center; /* al centro */
+}
+
+#contenedor3{
+    align-items: center; /* al centro */
+    justify-content: space-between;
+}
+
+#contenedor4 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    #contenedor4 div{
+        margin: 32px;
+    }
+
+#contenedor5{
+    /* flex-direction: row; /* predeterminado */
+    /* flex-direction: row-reverse; /* invierte el orden de las cajas */
+    /* justify-content: end; */
+    flex-direction: column;
+    justify-content: space-between;
+}
