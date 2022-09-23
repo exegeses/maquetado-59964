@@ -1,0 +1,10 @@
+header{
+    background-color: #f5b1b1;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    background-color: #ee6969;
+}
