@@ -19,7 +19,7 @@ body{
     }
 
 header{
-    height: 250px;
+    min-height: 250px;
     background: rgb(215,143,183);
     background: linear-gradient(90deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
 }
@@ -55,13 +55,50 @@ header{
         padding: 12px;
     }
 
+/*###  hero - banner  ###*/
+    #hero{
+        width: 1100px;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    #hero article{
+        width: 630px;
+    }
+    #hero article p{
+        color: #fff;
+        margin: 26px 0px;
+    }
+    #hero img{
+        margin: auto;
+    }
+    #hero div{
+        width: 630px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #hero div a{
+        padding: 8px 56px;
+        border-radius: 32px;
+        border: 1px solid #fff;
+        transition: 300ms;
+    }
+    #hero div a:hover{
+        color: rgb(215,143,183);
+        background-color: #fff;
+    }
+
 /*###  main  ###*/
 main{
     width: 1100px;
     margin: auto;
     min-height: 450px;
 }
+/*###  index  ###*/
+#contenido-index{
 
+}
 
 /*###  nosotros  ###*/
     #nosotros{
