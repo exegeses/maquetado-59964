@@ -161,6 +161,61 @@ main{
         width: 245px;
         height: 310px;
     }
+/*###  comprar  ###*/
+#comprar{
+    height: 548px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    #comprar article{
+        width: 326px;
+        padding: 32px 0 48px 0;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px #ccc;
+    }
+    #comprar div{
+        padding: 4px 0px;
+        margin: 22px 0px 20px 0px;
+        background-color: #F8F8F8;
+    }
+    #comprar article div span{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    #comprar ul{
+        list-style: none;
+        line-height: 24px;
+        margin-bottom: 28px;
+    }
+    #comprar ul li{
+        /*margin: 8px 0px;*/
+    }
+    #comprar article a{
+        padding: 8px 40px;
+        border: 1px solid #707070;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #707070;
+        font-weight: 600;
+        transition: 500ms;
+    }
+    #comprar article a:hover{
+        background-color: #707070;
+        color: #fff;
+    }
+/* call to action */
+    #personal div,
+    #personal a
+    {
+        background: rgb(215,143,183);
+        background: linear-gradient(90deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+        color: #fff !important;
+    }
+    #personal a:hover{
+        background: linear-gradient(0deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+    }
 
 
 /*###  footer  ###*/
