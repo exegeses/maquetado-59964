@@ -1,0 +1,35 @@
+body{
+    font-family: Raleway, sans-serif;
+    width: 780px;
+    margin: 32px auto;
+}
+::selection{
+    background-color: #f9decb;
+    color: #ff6600;
+}
+
+#primero p::first-line{
+   color: #f60;
+}
+
+/*
+#primero p::selection{
+    background-color: #f9decb;
+    color: #ff6600;
+}
+*/
+
+#segundo p::first-letter{
+    color: #ff6600;
+    font-size: 40px;
+    margin-right: 4px;
+}
+#tercero p::before {
+    content: url(../imgs/rocket.png);
+    margin-right: 4px;
+}
+
+ul li::marker{
+    color: #f60;
+    font-size: 24px;
+}
